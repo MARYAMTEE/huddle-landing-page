@@ -51,6 +51,13 @@ button{
     font-family: "Poppins", serif;
     font-weight: 500;
     margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: var(--Soft-Magenta);
+    color: white;
+    border: none;
 }
 
 .fab{
@@ -60,6 +67,12 @@ button{
     padding: 10px;
     border-radius: 50%;
     margin-right: 10px;
+}
+
+.fab:hover{
+    color: var(--Soft-Magenta);
+    border: 1px solid var(--Soft-Magenta);
+    cursor: pointer;
 }
 
 
