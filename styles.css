@@ -19,12 +19,9 @@ body{
     background-image: url(./images/bg-mobile.svg);
     background-repeat: no-repeat, no-repeat;
     padding: 35px;
-    max-width: 23.5rem;
     height: 100%;
-    width: 100%;
+    max-width: 23.4rem;
 }
-
-
 
 .logo{
     text-align: start;
@@ -33,7 +30,6 @@ body{
 .responsive-img{
     width: 300px;
     padding: 50px 0;
-
 }
 
 h3{
@@ -109,8 +105,37 @@ body{
     background-size: contain;
     font-size: 16px;
     height: 100%;
-    max-width: 90rem;
-    width: 100%;
+    max-width: 80rem;
+    padding: 125px 0;
+    margin: auto;
 }
+
+.page-bn{
+    display: flex;
+}
+
+.responsive-img{
+    width: 1000px;
+}
+
+.page-details{
+    margin: 100px 0 0 45px;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: flex-end;
+    padding: 50px 0;
+}
+
+h3{
+    color: white;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+}
+
+@media only screen and (min-width: 320px){
 
 }
