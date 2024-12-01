@@ -85,7 +85,6 @@ button:hover{
 .social-icons{
     display: flex;
     justify-content: center;
-    padding: 50px 0;
 }
 
 
@@ -104,9 +103,8 @@ body{
     background-repeat: no-repeat, no-repeat;
     background-size: contain;
     font-size: 16px;
-    height: 100%;
-    max-width: 80rem;
-    padding: 125px 0;
+    max-width: 76rem;
+    padding: 150px 0;
     margin: auto;
 }
 
@@ -125,7 +123,6 @@ body{
 .social-icons{
     display: flex;
     justify-content: flex-end;
-    padding: 50px 0;
 }
 
 h3{
